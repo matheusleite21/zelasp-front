@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Paleta do ZelaSP (Tailwind 4: o tema fica no CSS, sem tailwind.config.js) */
+@theme {
+  --color-zela-50: #ecfdf5;
+  --color-zela-100: #d1fae5;
+  --color-zela-600: #15803d;
+  --color-zela-700: #0f5132;
+  --color-zela-900: #0b3a24;
+  --color-sol-300: #fcd34d;
+  --color-sol-500: #f2b705;
+}
+
+/* Foco visível em todos os elementos interativos (acessibilidade por teclado) */
+:focus-visible {
+  outline: 3px solid var(--color-sol-500);
+  outline-offset: 2px;
+}
