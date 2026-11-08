@@ -6,6 +6,7 @@ import "./index.css";
 import App from "./App.tsx";
 import Erro from "./pages/Erro.tsx";
 import Cadastro from "./pages/Cadastro.tsx";
+import Contato from "./pages/Contato.tsx";
 import Faq from "./pages/Faq.tsx";
 import Home from "./pages/Home.tsx";
 import Sobre from "./pages/Sobre.tsx";
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/sobre", element: <Sobre /> },
       { path: "/faq", element: <Faq /> },
+      { path: "/contato", element: <Contato /> },
       { path: "/cadastro", element: <Cadastro /> },
     ],
   },
