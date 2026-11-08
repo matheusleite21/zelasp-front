@@ -11,6 +11,7 @@ import Faq from "./pages/Faq.tsx";
 import Home from "./pages/Home.tsx";
 import IntegranteDetalhe from "./pages/IntegranteDetalhe.tsx";
 import Integrantes from "./pages/Integrantes.tsx";
+import Ocorrencias from "./pages/Ocorrencias.tsx";
 import Sobre from "./pages/Sobre.tsx";
 
 const router = createBrowserRouter([
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
       { path: "/integrantes", element: <Integrantes /> },
       { path: "/integrantes/:rm", element: <IntegranteDetalhe /> },
       { path: "/cadastro", element: <Cadastro /> },
+      { path: "/ocorrencias", element: <Ocorrencias /> },
     ],
   },
 ]);
