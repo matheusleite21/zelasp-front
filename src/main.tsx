@@ -6,6 +6,7 @@ import "./index.css";
 import App from "./App.tsx";
 import Erro from "./pages/Erro.tsx";
 import Cadastro from "./pages/Cadastro.tsx";
+import Home from "./pages/Home.tsx";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <Erro />,
     children: [
+      { path: "/", element: <Home /> },
       { path: "/cadastro", element: <Cadastro /> },
     ],
   },
