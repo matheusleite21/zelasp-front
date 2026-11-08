@@ -12,6 +12,7 @@ import Home from "./pages/Home.tsx";
 import IntegranteDetalhe from "./pages/IntegranteDetalhe.tsx";
 import Integrantes from "./pages/Integrantes.tsx";
 import NovaOcorrencia from "./pages/NovaOcorrencia.tsx";
+import OcorrenciaDetalhe from "./pages/OcorrenciaDetalhe.tsx";
 import Ocorrencias from "./pages/Ocorrencias.tsx";
 import Sobre from "./pages/Sobre.tsx";
 
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
       { path: "/cadastro", element: <Cadastro /> },
       { path: "/ocorrencias", element: <Ocorrencias /> },
       { path: "/ocorrencias/nova", element: <NovaOcorrencia /> },
+      { path: "/ocorrencias/:id", element: <OcorrenciaDetalhe /> },
     ],
   },
 ]);
