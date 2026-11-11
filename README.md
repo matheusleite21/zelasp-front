@@ -9,10 +9,10 @@ SPA em React que consome a API REST Java do ZelaSP (Domain Driven Design Using J
 ## Links
 | | |
 |---|---|
-| Site publicado (Vercel) | **PREENCHER** |
-| Repositório (GitHub) | **PREENCHER** |
-| API Java (Render) | **PREENCHER** |
-| Vídeo (YouTube) | **PREENCHER** |
+| Site publicado (Vercel) | https://zelasp-front.vercel.app |
+| Repositório (GitHub) | https://github.com/matheusleite21/zelasp-front |
+| API Java (Render) | https://zelasp-api.onrender.com (Swagger: https://zelasp-api.onrender.com/swagger-ui.html) |
+| Vídeo (YouTube) | https://youtu.be/gUFmMc0l9Ec |
 
 ## Tecnologias
 - **React 19 + Vite 8 + TypeScript 7**
