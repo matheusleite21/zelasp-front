@@ -71,5 +71,8 @@ Testado em **390 × 844**, **768 × 1024** e **1440 × 900**, sem rolagem horizo
 | Matheus Leite Souza das Virgens | 573416 | [matheusleite21](https://github.com/matheusleite21) |
 | Matheus Ruiz Giatti | 570701 | [matheusruiz-07](https://github.com/matheusruiz-07) |
 
+## Uso de IA generativa
+O grupo usou o Claude (Anthropic) como apoio para estruturar componentes e serviços, revisar a responsividade e escrever este README. Todo o código foi revisado e testado pelo grupo nas três resoluções e contra a API publicada. O registro completo, com o que foi aceito, corrigido ou descartado, está na seção 11 do documento de Software Engineering.
+
 ## Contato
-Use a página [/contato](#) do site ou escreva para rm573416@fiap.com.br e rm570701@fiap.com.br.
+Use a página [Contato](https://zelasp-front.vercel.app/contato) do site ou escreva para rm573416@fiap.com.br e rm570701@fiap.com.br.
